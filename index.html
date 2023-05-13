@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>New_Customer_Form</title>
+</head>
+<body>
+    <!-- Creates the Overall Grid -->
+    <div class="container">
+        <div class="row">
+        <!-- First (and only column) -->
+            <div class="col-md-12">
+                <div class="phase-banner-container">
+                    <div class="phase-container">
+                        <p><strong class="phase-tag">ACT</strong>
+                        <span>This is a new starter form</span>
+                        <br>
+                        <a href="https://www.actwessex.co.uk">More news about ACT</a></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <!--<section aria-label="goback">
+        <a style="color:blue; display:inline;" aria-hidden="true"></a>
+        <a href="/act_live.html">Back</a>
+    </section>-->
+    <!--="https://app.formester.com/forms/your@form/submissions" method ="POST-->
+
+        <div class="row">
+            <h3>Please confirm Trading Entity!</h3>
+            <form class="row g-3" action="https://formsubmit.co/" method="POST">
+                <div class="col-md-12">
+                    <div>
+                        <label for="Trader" >Sole Trader</label>
+                        <input type="radio" name="Trading Entity" id="Sole Trader" value="Sole Trader" required>
+                    </div>
+                    <div>
+                        <label for="Trader" >Partnership</label>
+                        <input type="radio" name="Trading Entity" id="Sole Trader" value="Sole Trader" required>
+                    </div>
+                    <div>
+                        <label for="Trader" >Limited Company</label>
+                        <input type="radio" name="Trading Entity" id="Sole Trader" value="Sole Trader" required>
+                    </div>
+                    <div>
+                        <label for="Other" >Other</label>
+                        <input type="radio" name="Trading Entity" id="Sole Trader" value="Sole Trader" required>
+                        <br>
+                    </div>
+                </div>
+                <div class="col-md-08">
+                    <div>
+                        <label for="Specify">Specify</label>
+                        <textarea class="form-control" id="Specify" name="Specify" rows="3"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
